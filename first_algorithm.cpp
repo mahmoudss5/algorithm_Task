@@ -4,7 +4,7 @@ using namespace std;
 
 signed main(){
     int n; cin>>n;
- int a[n][n];
+    int a[n][n];
     for (int i = 0; i <n ; ++i) {
         for (int j = 0; j <n ; ++j) {
             cin>>a[i][j];
@@ -20,6 +20,6 @@ signed main(){
         sum2+=a[i][idx];
         idx--;
     }
- cout<<abs(sum1-sum2)<<endl;
-return 0;
+    cout<<abs(sum1-sum2)<<endl;
+    return 0;
 }
